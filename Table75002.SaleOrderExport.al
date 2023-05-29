@@ -113,7 +113,7 @@ table 75002 SaleOrderExport
         {
 
         }
-       
+
         field(27; "User ID"; Code[100])
         {
 
@@ -172,9 +172,9 @@ table 75002 SaleOrderExport
     end;
 
     var
+
         CustomerOrderTypeRec: Record "Customer Order Type";
         CustomerRec: Record Customer;
         SaleOrderExportRec: Record SaleOrderExport;
-
 
 }
