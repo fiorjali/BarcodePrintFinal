@@ -803,7 +803,7 @@ codeunit 75004 "DistibutorPortal"
             exit(Myresult);
         end;
 
-        //Get DocuentNo
+        //Get DocuentNo-1
         if input.Get('DocuentNo', c) then begin
             DocuentNo := c.AsValue().AsText();
         end else begin
